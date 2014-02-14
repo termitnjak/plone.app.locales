@@ -1,13 +1,12 @@
 # Translation of cmfeditions.pot to Danish
 # Jacob Vestergaard <jacobv@headnet.dk>, 2007, 2010.
-# Thomas Clement Mogensen <tmog@headnet.dk>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: CMFEditions\n"
-"POT-Creation-Date: 2013-05-22 08:09+0000\n"
+"POT-Creation-Date: 2010-10-30 10:12+0000\n"
 "PO-Revision-Date: 2010-02-07 20:28+0100\n"
-"Last-Translator: Thomas Clement Mogensen <tmog@headnet.dk>\n"
-"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Last-Translator: \n"
+"Language-Team: Dansk <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,52 +19,52 @@ msgstr ""
 
 #: CMFEditions/skins/CMFEditions/revertversion.py:30
 msgid "${title} has been reverted to revision ${version}."
-msgstr "${title} er blevet rullet tilbage til version ${version}."
+msgstr ""
 
 #: CMFEditions/subscriber.py:52
 msgid "Edited (WebDAV)"
-msgstr "Redigeret (WebDAV)"
+msgstr ""
 
 #: CMFEditions/browser/diff.pt:62
 msgid "First revision"
-msgstr "Første version"
+msgstr ""
 
 #: CMFEditions/skins/CMFEditions/update_version_before_edit.cpy:22
 #: CMFEditions/subscriber.py:59
 msgid "Initial revision"
-msgstr "Første version"
+msgstr ""
 
 #: CMFEditions/subscriber.py:49
 msgid "Initial revision (WebDAV)"
-msgstr "Første version (WebDAV)"
+msgstr ""
 
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:223
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:214
 msgid "Preview is not available."
 msgstr "Forhåndsvisning er ikke tilgængelig "
 
 #: CMFEditions/skins/CMFEditions/revertversion.py:36
 msgid "Reverted to revision ${version}"
-msgstr "Rullet tilbage til version ${version}"
+msgstr ""
 
 #: CMFEditions/browser/diff.pt:72
 msgid "Second revision"
-msgstr "Anden version"
+msgstr ""
 
 #. Default: "Show differences"
-#: CMFEditions/browser/diff.pt:96
+#: CMFEditions/browser/diff.pt:94
 msgid "Show differences"
 msgstr "Vis forskelle"
 
-#: CMFEditions/skins/CMFEditions/revertversion.py:41
+#: CMFEditions/skins/CMFEditions/revertversion.py:40
 msgid "The most current revision of the file could not be saved before reverting because the file is too large."
-msgstr "Nyeste version af filen kunne ikke gemmes, før tilbagerulningen, fordi filen er for stor."
+msgstr ""
 
-#: CMFEditions/browser/diff.pt:90
+#: CMFEditions/browser/diff.pt:88
 msgid "There are no changes between the selected revisions."
-msgstr "Der er ingen ændringer i mellem de valgte versioner."
+msgstr ""
 
 #. Default: "This field has no inline difference view."
-#: CMFEditions/browser/diff.pt:117
+#: CMFEditions/browser/diff.pt:115
 msgid "This field has no inline difference view."
 msgstr "Dette felt har ikke noget inline view for forskelle"
 
@@ -74,24 +73,25 @@ msgid "Versioning for this file has been disabled because it is too large"
 msgstr "Versionering for denne fil er slået fra, fordi den er for stor"
 
 #. Default: "Working Copy"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:58
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:54
 msgid "Working Copy"
 msgstr "Arbejdskopi"
 
 #. Default: "as code"
-#: CMFEditions/browser/diff.pt:104
+#: CMFEditions/browser/diff.pt:102
 msgid "as code"
 msgstr "som kode"
 
 #. Default: "Save as new revision"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:186
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:181
+#, fuzzy
 msgid "button_save_as_new_version"
 msgstr "Gem som en ny version"
 
 #. Default: "You can have different settings for each content type. Content can be automatically versioned, and you can also opt to create a version when you revert a revision."
 #: CMFEditions/skins/CMFEditions/versioning_config_form.pt:31
 msgid "description_version_settings"
-msgstr "Du kan have forskellige indstillinger for hver indholdstype. Indhold kan bliver versioneret automatisk og du kan vælge at oprette en version, når du går tilbage til en version"
+msgstr "Du kan have forskellige indstillinger for hver indholdstype. Indhold kan bliver versioneret automatisk og du kan vælge at oprette en version, når du går tilbage til en revision"
 
 #. Default: "Select to make a version of the current content."
 #: CMFEditions/browser/edit.pt:49
@@ -104,37 +104,38 @@ msgid "help_version_comment"
 msgstr "Skriv en kommentar, som beskriver de ændringer, du har lavet"
 
 #. Default: "At any moment you can save the content you just edited as a new revision. Enter below a comment to identify the version and hit the \"Save as new revision\" button."
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:176
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:171
+#, fuzzy
 msgid "help_versioncomment"
 msgstr "Du kan på et hvilket som helst tidspunkt gemme det inhold, du lige har redigeret som en ny version. Skriv en kommentar herunder for at identificere versionen og klik på \"Gem som en ny version\" knappen"
 
 #. Default: "inline"
-#: CMFEditions/browser/diff.pt:100
+#: CMFEditions/browser/diff.pt:98
 msgid "inline"
 msgstr "inline"
 
 #. Default: "Click here to get the file"
-#: CMFEditions/skins/cmfeditions_views/version_file_view.pt:21
+#: CMFEditions/skins/cmfeditions_views/version_file_view.pt:32
 msgid "label_click_to_get_file"
 msgstr "Klik her for at hente filen"
 
 #. Default: "Compare to current revision"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:131
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:127
 msgid "label_compare_current"
 msgstr "Sammenlign med gældende version"
 
 #. Default: "Compare to previous revision"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:139
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:135
 msgid "label_compare_previous"
 msgstr "Sammenlign med forrige version"
 
 #. Default: "Compare to previous revision"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:88
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:84
 msgid "label_compare_to_previous_revision"
 msgstr "Sammenlign med forrige version"
 
 #. Default: "Compare to revision ${version_id}"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:85
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:81
 msgid "label_compare_to_revision"
 msgstr "Sammenlign med version ${version_id}"
 
@@ -179,7 +180,7 @@ msgid "label_enable_versioning"
 msgstr "Versionering slået til"
 
 #. Default: "File type"
-#: CMFEditions/skins/cmfeditions_views/version_file_view.pt:45
+#: CMFEditions/skins/cmfeditions_views/version_file_view.pt:54
 msgid "label_file_type"
 msgstr "Fil type"
 
@@ -193,16 +194,17 @@ msgstr "${version} (${date})"
 #. </label>
 #. Default: "Item Type"
 #: CMFEditions/skins/CMFEditions/versioning_config_form.pt:66
+#, fuzzy
 msgid "label_item_type"
 msgstr "Indholdstype"
 
 #. Default: "modifications from revision ${version_id}"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:69
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:65
 msgid "label_modifications_from_revision"
 msgstr "Ændringer fra version ${version_id}"
 
 #. Default: "New version"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:173
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:168
 msgid "label_newversion"
 msgstr "Ny version"
 
@@ -212,29 +214,30 @@ msgid "label_no_changes"
 msgstr "Ingen ændringer"
 
 #. Default: "Preview of Revision ${version_id}"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:201
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:196
+#, fuzzy
 msgid "label_preview_version"
 msgstr "Smugkig på Version ${version_id}"
 
 #. Default: "(jump down)"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:112
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:108
 msgid "label_preview_version_below"
 msgstr "(nedenfor)"
 
 #. Default: "(preview)"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:107
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:103
 msgid "label_preview_version_link"
 msgstr "(smugkig)"
 
 #. Default: "(previously reverted)"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:71
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:67
 msgid "label_previously_reverted"
 msgstr "(tidligere ført tilbage)"
 
 #. Default: "Revert to this revision"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:153
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:148
 msgid "label_revert"
-msgstr "Gå tilbage til denne version"
+msgstr "Gå tilbage til denne revision"
 
 #. Default: "Save as new version"
 #: CMFEditions/browser/edit.pt:46
@@ -248,6 +251,7 @@ msgstr "Vis forskelle i koden"
 
 #. Default: "show revisions"
 #: CMFEditions/skins/CMFEditions/versions_history.pt:32
+#, fuzzy
 msgid "label_show_version"
 msgstr "Vis versioner"
 
@@ -299,10 +303,10 @@ msgstr "Seneste versioner"
 #. Default: "Revisions"
 #: CMFEditions/browser/diff.pt:61
 msgid "legend_revisions"
-msgstr "Versioner"
+msgstr ""
 
 #. Default: "Actions"
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:46
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:42
 msgid "listingheader_actions"
 msgstr "Handlinger"
 
@@ -311,35 +315,37 @@ msgstr "Handlinger"
 #. Comment
 #. </th>
 #: CMFEditions/skins/CMFEditions/versions_history.pt:21
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:44
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:40
 msgid "listingheader_comment"
 msgstr "Kommentar"
 
 #. Default: "Date and Time"
 #: CMFEditions/skins/CMFEditions/versions_history.pt:20
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:42
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:38
 msgid "listingheader_date_and_time"
 msgstr "Dato og tidspunkt"
 
 #. Default: "Revision"
 #: CMFEditions/skins/CMFEditions/versions_history.pt:18
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:38
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:34
+#, fuzzy
 msgid "listingheader_key"
 msgstr "Version"
 
 #. Default: "Performed by"
 #: CMFEditions/skins/CMFEditions/versions_history.pt:19
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:40
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:36
 msgid "listingheader_performed_by"
 msgstr "Udført af"
 
 #. Default: "(No file has been uploaded yet)"
-#: CMFEditions/skins/cmfeditions_views/version_file_view.pt:29
+#: CMFEditions/skins/cmfeditions_views/version_file_view.pt:48
 msgid "no_file_uploaded"
 msgstr "(Der er endnu ikke nogen filer uploadet)"
 
 #. Default: "This object has no revision information."
 #: CMFEditions/browser/diff.pt:51
+#, fuzzy
 msgid "no_history"
 msgstr "Dette objekt har ikke nogen versionsinformation"
 
@@ -351,19 +357,20 @@ msgstr "Versionshistorie"
 #. Default: "Changes from revision ${id2} to revision ${id1}"
 #: CMFEditions/skins/CMFEditions/version_diff.pt:32
 msgid "title_changes_between_revs"
-msgstr "Ændringer fra version ${id2} til version ${id1}"
+msgstr "Ændringer fra revision ${id2} til revision ${id1}"
 
 #. Default: "Changes since revision ${id2}"
 #: CMFEditions/skins/CMFEditions/version_diff.pt:30
 msgid "title_changes_since_rev"
-msgstr "Ændringer siden version ${id2}"
+msgstr "Ændringer siden revision ${id2}"
 
-#: CMFEditions/browser/diff.py:37
+#: CMFEditions/browser/diff.py:28
 msgid "version ${version}"
 msgstr "version ${version}"
 
 #. Default: "Revisions of \"${title}\""
-#: CMFEditions/skins/CMFEditions/versions_history_form.pt:24
+#: CMFEditions/skins/CMFEditions/versions_history_form.pt:20
+#, fuzzy
 msgid "versions_of_title"
 msgstr "Versioner af \"${title}\""
 

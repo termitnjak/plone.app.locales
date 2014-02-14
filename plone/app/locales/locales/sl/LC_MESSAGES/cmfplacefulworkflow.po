@@ -1,11 +1,11 @@
 # Translation of cmfplacefulworkflow.pot to Slovenian
-# Matjaž Jeran (matematik) <matjaz.jeran@amis.net>, 2006, 2007, 2008, 2009, 2011, 2012.
+# Matjaž Jeran (matematik) <matjaz.jeran@amis.net>, 2006, 2007, 2008, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: cmfplacefulworkflow-sl\n"
-"POT-Creation-Date: 2013-05-22 08:09+0000\n"
-"PO-Revision-Date: 2012-07-31 21:13+0200\n"
-"Last-Translator: Matjaž Jeran (matematik)<matjaz.jeran@amis.net>\n"
+"POT-Creation-Date: 2011-11-18 21:13+0000\n"
+"PO-Revision-Date: 2011-09-03 19:59+0100\n"
+"Last-Translator: Andrej <andrej.pangercic@oktaeder.org>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,21 +15,22 @@ msgstr ""
 "Language-Name: Slovenian\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: cmfplacefulworkflow\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.2\n"
 "Language: sl\n"
 
 #: ./profiles.zcml
+#, fuzzy
 msgid "Add in Plone the capability to change workflow chains for types in every object."
-msgstr "Dodaj v Plonu možnost spreminjanja poteka verig delovnega toka za tipe v vsakem predmetu."
+msgstr "Dodaj v Plonu sposobnosti spreminjanja poteka delovnega toka verig za tipe v vsakem objektu."
 
 msgid "Add in Plone the capability to change workflow chains for types in every object. Includes a dependency on core Plone types."
-msgstr "Dodaj v Plonu možnost spreminjanja poteka verig delovnega toka za tipe v vsakem predmetu. Vključi odvisnost od osnovnih Plonovih tipov."
+msgstr ""
 
 #: ./profiles.zcml
 msgid "Add in Plone the capability to change workflow chains for types in every object. With no dependency on core Plone types."
-msgstr "Dodaj v Plonu možnost spreminjanja poteka verig delovnega toka za tipe v vsakem predmetu. Brez odvisnosti od osnovnih Plonovih tipov."
+msgstr ""
 
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:36
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:31
 msgid "Changed policies."
 msgstr "Spremenjena politika."
 
@@ -37,7 +38,7 @@ msgstr "Spremenjena politika."
 msgid "Changes to criteria saved."
 msgstr "Shranjene spremembe kriterijev."
 
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:19
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:14
 msgid "Configuration changes cancelled."
 msgstr "Spremembe nastavitev preklicane."
 
@@ -53,7 +54,7 @@ msgstr "Intranet"
 msgid "Local Workflow Policy added."
 msgstr "Lokalna politika delovnih tokov dodana."
 
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:25
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:19
 msgid "No config in this folder."
 msgstr "Ta mapa nima nastavitev."
 
@@ -77,17 +78,13 @@ msgstr "Potrebna je politika ID-ja. "
 msgid "Title is required."
 msgstr "Potreben je naslov."
 
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration.pt:208
-msgid "Update catalog role mappings"
-msgstr ""
-
 #: ./profiles.zcml
 msgid "Workflow Policy Support (CMFPlacefulWorkflow)"
 msgstr "Podpora delovnim tokovom (CMFPlacefulWorkflow)"
 
 #: ./profiles.zcml
 msgid "Workflow Policy Support (CMFPlacefulWorkflow) - no core types dependency"
-msgstr "Podpora delovnim tokovom (CMFPlacefulWorkflow) - brez odvisnosti od osnovnih tipov"
+msgstr ""
 
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_add.py:9
 msgid "Workflow policy configuration added."
@@ -108,9 +105,8 @@ msgstr "Dodaj politiko delovnih tokov v lokalno sestavo."
 msgid "description_add_workflow_policy_for_type"
 msgstr "Dodaj lokalno sestavo politike delovnih tokov na spletišče ${portal_type}"
 
-#. Default: "Modify the workflows only below this Folder. If you want to modify the workflow of this Folder use 'For this Folder' section."
+#. Default: "Modify the workflows only below this Folder. If you want to modify the workflow of this Folder use 'In this Folder'."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration.pt:141
-#, fuzzy
 msgid "description_below_this_folder"
 msgstr "Spreminjanje delovnih tokov samo pod to mapo. Če želite spremeniti delovni tok te mape uporabite 'Pod to mapo'."
 
@@ -119,9 +115,8 @@ msgstr "Spreminjanje delovnih tokov samo pod to mapo. Če želite spremeniti del
 msgid "description_duplicate_policy_id"
 msgstr "Začni novo politiko s kopijo dane. Lahko začnete tudi prazno politiko."
 
-#. Default: "Modify the workflows of this folder and below. If you don't want to modify the workflow of this Folder use 'Below this Folder' section."
+#. Default: "Modify the workflows of this folder and below. If you don't want to modify the workflow of this Folder use 'Below this Folder'."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration.pt:90
-#, fuzzy
 msgid "description_in_this_folder"
 msgstr "Spreminjanje delovnih tokov samo v tej mapi in pod to mapo. Če želite spremeniti delovni tok te mape uporabite 'Pod to mapo'."
 
@@ -129,11 +124,6 @@ msgstr "Spreminjanje delovnih tokov samo v tej mapi in pod to mapo. Če želite 
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:130
 msgid "description_new_policy_id"
 msgstr "Vnesite oznako za novo politiko delovnih tokov"
-
-#. Default: "Update catalog security (update role mappings). Note that updating catalog security might be a very long operation if there are a lot of brains to be re-indexed. This operation can be done afterwards as a separate upgrade step."
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration.pt:196
-msgid "description_update_security"
-msgstr ""
 
 #. Default: "Custom workflow policy which maps content types to workflows."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:45
@@ -249,11 +239,6 @@ msgstr "Izbrano odstranjevanje"
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:38
 msgid "label_up_to_placeful_workflow"
 msgstr "Navzgor do prilagojenega delovnega toka"
-
-#. Default: "Update security"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration.pt:195
-msgid "label_update_security"
-msgstr ""
 
 #. Default: "Workflows by type"
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:134

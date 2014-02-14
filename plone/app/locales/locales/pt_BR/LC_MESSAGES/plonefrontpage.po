@@ -151,7 +151,7 @@ msgstr "Notícias"
 
 #. Default: "Site News"
 msgid "news-description"
-msgstr "Notícias do site"
+msgstr "Notícias deste site"
 
 #. Default: "Events"
 msgid "events-title"

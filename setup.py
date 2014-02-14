@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-version = '4.3.3.dev0'
+version = '4.0.13'
 
 setup(name='plone.app.locales',
       version=version,
       description="Translation files for Plone",
-      long_description=open("README.rst").read() + "\n" +
+      long_description=open("README.txt").read() + "\n" +
                        open("CHANGES.txt").read(),
       classifiers=[
           "Environment :: Web Environment",
